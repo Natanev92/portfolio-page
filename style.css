@@ -1,0 +1,208 @@
+*{
+    margin:0px;
+    padding: 0px;}
+
+/* header{ 
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}*/
+
+.nav{
+    background:linear-gradient(180deg, rgba(2,0,36,1)1%, 
+    rgba(9,9,121,1) 35%, rgb(242, 244, 245) 100%);
+    /* justify-content: space-between; */
+    padding-right: 20px;
+    align-items: center;
+    color: whitesmoke;
+    display: flex;
+    
+}
+.nav-title{
+    margin-left: 250px;
+    display:flex; 
+    justify-content:space-evenly;
+    vertical-align: middle;  
+}
+
+.active{
+    font-weight:800;
+}
+.nav-links{
+    display:flex; 
+    justify-content: space-between;
+}
+.btn{
+    color: black;
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px;
+    margin-left: 700px;
+    
+}
+li{
+    list-style: none;
+    display:inline;
+    margin: 10px;
+}
+li a{
+    text-decoration: none;
+    color: whitesmoke
+}
+
+body{
+    background-color:rgb(62, 82, 70);
+}
+
+.container1{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.col-2{
+    margin-right: 150px;
+}
+
+.user-card{
+    background: linear-gradient(180deg, rgba(2,0,36,1)1%, 
+    rgba(9,9,121,1) 35%, rgb(242, 244, 245) 35%);
+    width: 600px;
+    margin: 50px;
+    padding-left: 50px;
+    border: 2px solid grey;
+}
+
+.education{
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid grey;
+
+}
+.educationtop{
+    height: 50px;
+    background:linear-gradient(180deg, rgba(2,0,36,1)1%, 
+    rgba(9,9,121,1) 35%, rgb(242, 244, 245) 100%);
+    color: whitesmoke;
+    }
+
+.schools{
+    padding: 10px;
+}
+
+.date{
+    color:grey;
+    padding: 10px;
+}
+
+.skills{
+    padding: 10px;
+}
+
+.row{
+    display:flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bottom{
+    display: flex;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.pending{
+    background-color:grey ;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.request{
+    padding-top: 30px;
+    display:flex;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 50px;
+    background:linear-gradient(180deg, rgba(2,0,36,1)1%, 
+    rgba(9,9,121,1) 35%, rgb(242, 244, 245) 100%);
+    color: whitesmoke;
+    text-align:center;
+}
+
+.list{
+    background-color: whitesmoke;
+    
+    height: 200px;
+}
+
+.person{
+    display: flex;
+    padding: 10px;
+    
+}
+
+.accept{
+    background-color: grey;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.totalfriends{
+    background-color:grey ;
+    height: 20px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.connection{
+    padding-top: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 50px;
+    background:linear-gradient(180deg, rgba(2,0,36,1)1%, 
+    rgba(9,9,121,1) 35%, rgb(242, 244, 245) 100%);
+    color: whitesmoke;
+    text-align:center;
+    margin-top: 50px;
+}
+
+.allfriends{
+    color: whitesmoke;
+    background-color: blue;
+    border: 2px solid black;
+    margin-left: 150px; 
+}
+
+.friends{
+    background-color: whitesmoke;
+    margin: bottom 50px;
+}
+
+.col-2{
+    margin-top: 50px;
+
+}
+
+.row>img{
+    height: 25px;
+    margin-right: 20px;
+    
+}
+.user-card>img{
+    height: 150px;
+    margin-top: 50px;
+    
+}
+.bottom>img{
+    height: 20px;
+    margin-right: 20px;
+}
+
+.person>img{
+    height: 50px;
+}
